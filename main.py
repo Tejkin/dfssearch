@@ -15,7 +15,7 @@ def dfs(m):
     Performs depth-first search (DFS) on a given maze.
 
     Args:
-        m (Maze): The maze object containing the maze map.
+        m (maze): The maze object containing the maze map.
 
     Returns:
         - final_path (dict): A dictionary representing the final path found during DFS.
