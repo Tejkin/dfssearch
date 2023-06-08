@@ -1,7 +1,7 @@
 from pyamaze import maze, COLOR, agent
 
 def main():
-    maze_size = 7
+    maze_size = 20
     maze = initMaze(maze_size)
     final_agent = initAgent(maze)
     dfs_agent = agent(maze, footprints = True, filled = True, color = COLOR.green, goal = (0, 0))
